@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap');
+:root{
+    --tan: #D1CAA1;
+    --green: #3d3b30;
+    --brown: #A76D60;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    
+}
+body{
+    background-color: var(--tan);
+    font-family: 'Glegoo', sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    /* background-color: var(--green); */
+    backdrop-filter: blur(50px);
+
+    position: fixed;
+    width: 100vw;
+}
+
+.logo{
+    font-size: 2rem;
+    padding-left: .5em;
+    flex-flow: nowrap;
+}
+nav{
+    /* color: var(--brown); */
+    font-size: 1.rem;
+    display: flex;
+    /* margin-left: auto; */
+    
+}
+
+nav ul{
+    list-style-type: none;
+    flex-direction: row;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: .25em;
+
+}
+li a{
+    font-weight: 700;
+    display: block;
+    /* color: var(--brown); */
+    color: black;
+    text-decoration: none;
+    padding-left: .25em;
+    padding-right: .25em;
+    text-align: center;
+    
+}
+
+li:hover{
+    background-color: var(--tan);
+    font-weight: 700;
+    transition: all ease-in-out .5s;
+    /* font-size: 1.1rem; */
+    
+}
+
+#banner{
+    background-image: url(../images/mourning.jpg);
+    height: 100vh;
+    
+    /* width: 80vh; */
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about{
+    margin-left: .5em;
+}
+
+#listen{
+    margin-left: .5em;
+}
